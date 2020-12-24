@@ -1,0 +1,64 @@
+html, body {
+  margin:0px;
+  background:black;
+  height:100%;
+}
+
+.background {
+  background:black;
+  height:100%;
+  overflow: auto;
+  position: relative;
+  margin:0px;
+  color:white;
+}
+h1, h2{
+   font-family:Pfeffer Simpelgotisch;
+   Margin-bottom:5px;
+   text-align: center;
+}
+h1 {
+   font-size:100px;
+}
+h2 {
+   font-size:72px;
+}
+.title {
+   font-size:36px;
+   text-align:right;
+   margin-right:10%;
+}
+
+.subs {
+  z-index: 9;
+  font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","????", STXihei, "????", sans-serif;
+  font-size:24px;
+  padding:10px;
+  background:rgba(0, 0, 0, 0.5);;
+  color:white;
+  width:80%;
+  position: absolute;
+  top:20px;
+  left:10%
+}
+
+img {
+        max-width: 100%;
+        max-height: 100%;
+}
+#footer {
+	width:100%;
+	height:80px;
+	background-color:WhiteSmoke;
+	position:absolute;
+	bottom: -80px;
+	transition:bottom 1s;
+}
+#footer.footUp {
+	bottom: 0px;
+	transition:bottom 1s;
+}
+
+.content{
+  display: none;
+}
